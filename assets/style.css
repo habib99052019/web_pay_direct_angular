@@ -1139,19 +1139,20 @@ background-image: url("https://static.tildacdn.com/tild6362-3833-4335-a631-63303
   @media screen and (max-width: 990px) {
     .site-header {
       position: relative;
-      padding-top: 300px;
+      padding-top: 280px;
       background-size: 100% auto;
       background-repeat: no-repeat;
       background-image: url("https://patriot.ae/wp-content/uploads/2023/09/img213-min.jpg");
   } }
 
 .branding {
-  /* background: #262322; */
-  color: white;
+ /*background: #262322; */
+  color: rgb(192, 178, 178);
   display: block;
   position: absolute;
   left: 15px;
-  padding: 40px;
+  padding: 10px;
+  opacity: 1;
   text-align: center;
   top: 0; }
   .branding .site-title {
