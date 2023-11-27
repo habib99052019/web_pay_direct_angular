@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.logHeart{
+    width:150px;
+     height: auto;
+     top: 20%;left: 4%;margin-top: 2%;
+}
+.titleP{
+  
+    font-family: 'Sofia', sans-serif; /* Utilisation de la police 'Roboto' */
+    font-size: 25px; /* Taille de la police */
+    font-weight: 700; /* Épaisseur du texte */
+    color:#b79e69 ;
+    font-size: 25px;
+    animation: fadeInOut 3s infinite;
+}
+@keyframes fadeInOut {
+    0%, 100% {
+      opacity: 1;
+      
+    }
+    30% {
+      opacity: 0.5;
+      
+    }
+    70% {
+        opacity: 0;
+        
+      }
+}
+@media (max-width: 600px) {
+    .logHeart{
+        width:80px;
+         height: auto;
+         top: 20%;
+         left: 4%;
+         margin-top: 2%;
+    }
+    .titleP{
+    font-size: 15px;
+    }
+    }
